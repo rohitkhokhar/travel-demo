@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                Logo
+            </div>
+            <div class="nav-actions">
+                <button class="icon-btn" aria-label="Wishlist">
+                    ❤️
+                </button>
+                <button class="primary-btn">
+                    Manage Booking
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Millions of cheap flights. One simple search</h1>
+
+            <div class="booking-card">
+                <h2>Book Accommodations</h2>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Where to?">
+                    <span class="icon">🔍</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Check-in & Check-out">
+                    <span class="icon">📅</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Add guests">
+                    <span class="icon">👥</span>
+                </div>
+
+                <div class="filter-options">
+                    <p>Top options:</p>
+                    <button class="filter-btn">Free cancellation</button>
+                    <button class="filter-btn">Bed & breakfast</button>
+                </div>
+
+                <button class="cta-btn">
+                    <span>🔍</span> Let's go
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="promo">
+        <div class="promo-container">
+            <h3>Grab these promo deals</h3>
+
+            <div class="promo-wrapper">
+                <div class="promo-grid">
+                    <div class="promo-card">
+                        <div class="aspect-ratio-box">
+                            <span>16:9</span>
+                        </div>
+                    </div>
+                    <div class="promo-card">
+                        <div class="aspect-ratio-box">
+                            <span>16:9</span>
+                        </div>
+                    </div>
+                    <div class="promo-card">
+                        <div class="aspect-ratio-box">
+                            <span>16:9</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="promo-next-btn" aria-label="Next deals">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="flash-deals">
+        <div class="flash-container">
+            <h3>Flash deals near you</h3>
+            <div class="flash-wrapper">
+                <div class="flash-grid">
+                    <div class="flash-card">
+                        <div class="card-image-wrapper">
+                            <img src="images/deal.jpg" alt="Malaga">
+                            <div class="badge-container">
+                                <div class="badge timer"><span class="icon">⚡</span> 59:59:59</div>
+                                <div class="badge discount">-20%</div>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <p class="location">Malaga</p>
+                            <h4>Hotel Malaga</h4>
+                        </div>
+                    </div>
+
+                    <div class="flash-card">
+                        <div class="card-image-wrapper flipped">
+                            <img src="images/deal.jpg" alt="Malaga">
+                            <div class="badge-container">
+                                <div class="badge timer"><span class="icon">⚡</span> 59:59:59</div>
+                                <div class="badge discount">-20%</div>
+                            </div>
+                        </div>
+                        <div class="card-info flipped">
+                            <p class="location">Malaga</p>
+                            <h4>Hotel Malaga</h4>
+                        </div>
+                    </div>
+
+                    <div class="flash-card">
+                        <div class="card-image-wrapper">
+                            <img src="images/deal.jpg" alt="Malaga">
+                            <div class="badge-container">
+                                <div class="badge timer"><span class="icon">⚡</span> 59:59:59</div>
+                                <div class="badge discount">-20%</div>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <p class="location">Malaga</p>
+                            <h4>Hotel Malaga</h4>
+                        </div>
+                    </div>
+
+                    <div class="flash-card">
+                        <div class="card-image-wrapper">
+                            <img src="images/deal.jpg" alt="Malaga">
+                            <div class="badge-container">
+                                <div class="badge timer"><span class="icon">⚡</span> 59:59:59</div>
+                                <div class="badge discount">-20%</div>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <p class="location">Malaga</p>
+                            <h4>Hotel Malaga</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="flash-next-btn" aria-label="Next deals">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="destinations">
+        <div class="dest-container">
+            <h3>Our popular destinations</h3>
+            <div class="dest-grid">
+                <div class="dest-card">
+                    <div class="dest-image">
+                        <img src="images/destination.jpg" alt="Algarve">
+                    </div>
+                    <p>Algarve</p>
+                </div>
+                <div class="dest-card">
+                    <div class="dest-image">
+                        <img src="images/destination.jpg" alt="Florence">
+                    </div>
+                    <p>Florence</p>
+                </div>
+                <div class="dest-card">
+                    <div class="dest-image">
+                        <img src="images/destination.jpg" alt="Malaga">
+                    </div>
+                    <p>Malaga</p>
+                </div>
+                <div class="dest-card">
+                    <div class="dest-image">
+                        <img src="images/destination.jpg" alt="Santorini">
+                    </div>
+                    <p>Santorini</p>
+                </div>
+                <div class="dest-card">
+                    <div class="dest-image">
+                        <img src="images/destination.jpg" alt="Barcelona">
+                    </div>
+                    <p>Barcelona</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hot-deals">
+        <div class="hot-deals-container">
+            <div class="hot-deals-banner">
+                <div class="fire-icon">
+                    <img src="images/hot.png" alt="Fire Icon">
+                </div>
+                <div class="hot-deals-text">
+                    <h3>Check out our weekly hot deals</h3>
+                </div>
+                <div class="hot-deals-action">
+                    <button class="see-deals-btn">See Deals</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="faq-container">
+            <h3>Frequently Asked Questions (FAQ)</h3>
+
+            <div class="faq-list">
+                <div class="faq-item active">
+                    <div class="faq-header">
+                        <h4>How do you collect payment</h4>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m18 15-6-6-6 6" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h4>How do I claim a coupon offer?</h4>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h4>Which payment provider do you use to collect my payments?</h4>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h4>Which payment provider do you use to collect my payments?</h4>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h4>Which payment provider do you use to collect my payments?</h4>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col-logo">
+                <div class="footer-logo">
+                    Logo
+                </div>
+            </div>
+            <div class="footer-top">
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Term and conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Cookies policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <div class="contact-item">
+                        <span class="email-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="20" height="16" x="2" y="4" rx="2" />
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                            </svg>
+                        </span>
+                        <a href="mailto:customer@travel365.co.uk">customer@travel365.co.uk</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright © 2025 Travel365.com Ltd. All right reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
